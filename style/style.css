@@ -1,0 +1,345 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    height: 140vh;
+    flex-direction: column;
+    background-color: rgba(247, 248, 250, 0.479);
+    font-family: Arial, Helvetica, sans-serif;
+}
+marquee{
+    color: white;
+    flex: 1;
+    margin: 50px 0px 0px 0px;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(13, 150, 241);
+    background-color:rgba(213, 217, 218, 0.205);
+    border-radius: 0px 80px 0px 80px;
+}
+span{
+    font-size: large;
+}
+.pn-logo{
+    display: flex;
+    flex: 1;
+    padding: 0px 0px 0px 40px;
+}
+.pn-bar{
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+}
+.header{
+    background-image:url(../pictures/pn-bg1.png) ;
+    height:60%;
+    background-size: cover;
+}
+.style-back{
+    color: rgb(13, 140, 224);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 0px 0px 0px;
+    font-size: x-large;
+    padding: 100px 0px 0px 40px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.425), rgba(0, 0, 0, 0.219));
+    height: 68vh;
+}
+.pn-describe{
+    padding: 40px 600px 40px 4px;
+}
+#one{
+    color: rgb(245, 171, 11);
+    font-size: x-large;
+}
+#two{
+    color: white;
+}
+.values{
+    display: flex;
+    /* padding: 100px 40px 100px 40px; */
+    /* gap: 40px; */
+    flex-direction: column;
+    padding-top: 80px;
+}
+.pnc-value{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    padding: 20px;
+}
+.trust-card{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.title-icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.respect-card{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.solidarity-card{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.respon-card{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.canteens{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    height: 400px;
+    gap: 40px;
+}
+.info{
+    /* flex: 1; */
+    display: flex;
+    justify-content: center;
+}
+table, th, td{
+    border:0.1px solid gray;
+}
+th{
+    height: 40px;
+    background-color:rgba(13, 140, 224, 0.925);
+    color: white;
+}
+td{
+    height: 30px;
+    padding-left: 10px;
+}
+#td{
+    /* background-color:rgba(13, 140, 224, 0.925); */
+    color: rgba(13, 140, 224, 0.925);
+}
+.canteen-foods{
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+}
+.food-name{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+.sports{
+    display: flex;
+    flex-direction: column;
+    padding: 80px 40px 40px 40px;
+    gap: 40px;
+}
+.sport-title{
+    display: flex;
+    justify-content: center;
+}
+.card-sport{
+    display: flex;
+    gap:40px;
+}
+.sports-card{
+    /* border: 1px solid black; */
+    /* padding: 20px; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#bold{
+    font-weight:500;
+}
+#pnc{
+    color: white;
+    font-size: xx-large;
+}
+
+.aerobics{
+    padding: 80px 40px 40px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+h2{
+    text-align: center;
+}
+.aerobic-pic{
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.aerobic1{
+    display: flex;
+    gap: 20px;
+}
+.aero-img{
+    flex: 1;
+}
+
+.contacts-form{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 80px 40px 40px 40px;
+}
+.contact-form{
+    display: flex;
+    gap: 40px;
+}
+.form-describe{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+}
+.form-icons{
+    display: flex;
+    justify-content: space-between;
+}
+form{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 20px;
+    border-radius: 10px;
+    background-color:rgba(33, 123, 207, 0.733);
+    color: white;
+    margin-left: 100px;
+}
+.form-info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+input{
+    height: 30px;
+    padding-left: 20px;
+    margin-left: 10px;
+}
+textarea{
+    height: 100px;
+}
+button{
+    margin: 0px 0px 0px 400px;
+    height: 40px;
+    font-size: larger;
+    color: white;
+    background-color:orange;
+    border: none;
+    border-radius: 6px;
+}
+
+.google-map{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 80px 40px 40px 40px;
+}
+.iframe{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+}
+.footer{
+    display: flex;
+    padding: 80px 40px 40px 40px;
+    gap: 20px;
+    background-color: rgba(229, 235, 235, 0.747);
+}
+.pn-footer{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact-card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.media{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.facebook-card, .linkedin-card, .twitter-card{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.depart{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.staff{
+    display: flex;
+    gap: 10px;
+}
+.network, .programming{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#style{
+    box-shadow: 8px 7px #cde0e49c;
+}
+@media (min-width:700px) and (max-width:900px){
+    body{
+        font-size: medium;
+    }
+    /* .nav-bar{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .pn-bar{
+        display: flex;
+        flex-direction: column;
+    } */
+    /* .style-back{
+        display: flex;
+        flex-direction: column;
+    }
+    .pn-describe{
+        display: flex;
+    } */
+    .pnc-value{
+        display: flex;
+        justify-content: space-around;
+        gap: 10px;
+        padding: 40px;
+    }
+    .card-sport{
+        display: flex;
+        flex-direction: column;
+    }
+    .aerobic-pic{
+        display: flex;
+        flex-direction: column;
+    }
+}
